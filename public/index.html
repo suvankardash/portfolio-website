@@ -1,0 +1,151 @@
+<!-- Portfolio Website - Enhanced Styling and Animations -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Suvankar Dash</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="header-content" data-aos="fade-down">
+            <h1>Suvankar Dash</h1>
+            <p>Bhubaneswar, Odisha | <a href="mailto:suvankardash0103@gmail.com">Contact Me</a></p>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar" data-aos="fade-up">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#work-experience">Work Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 data-aos="fade-right">About Me</h2>
+        <div class="about-content" data-aos="fade-left">
+            <p>
+                Hello! I am <strong>Suvankar Dash</strong>, a passionate and results-driven <strong>Data Scientist</strong> and <strong>IoT Innovator</strong> based in Bhubaneswar, India.
+                With expertise in <strong>Machine Learning</strong>, <strong>IoT</strong>, and <strong>Data Analytics</strong>, I thrive at the intersection of cutting-edge technology and real-world problem-solving.
+            </p>
+            <p>
+                As a <strong>Data Science Intern at Tata Steel</strong>, I transformed raw data into actionable insights, driving strategic business decisions.
+                At the <strong>IoT Lab, KIIT</strong>, I led impactful projects like smart parking systems and weather station setups, showcasing my ability to innovate for smarter, more connected cities.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 data-aos="zoom-in">Skills</h2>
+        <div class="skills-grid" data-aos="fade-up">
+            <div class="skill-item">
+                <img src="java.jpg" alt="Java Logo" class="skill-logo", height="90px", width="90px">
+                <p>Java</p>
+            </div>
+            <div class="skill-item">
+                <img src="python.jpg" alt="Python Logo" class="skill-logo", height="90px", width="90px">
+                <p>Python</p>
+            </div>
+            <div class="skill-item">
+                <img src="mysql.jpg" alt="MySQL Logo" class="skill-logo", height="90px", width="90px">
+                <p>MySQL</p>
+            </div>
+            <div class="skill-item">
+                <img src="oracledb.jpg" alt="Oracle DB Logo" class="skill-logo", height="90px", width="90px">
+                <p>Oracle DB</p>
+            </div>
+            <div class="skill-item">
+                <img src="mongodb.jpg" alt="MongoDB Logo" class="skill-logo", height="90px", width="90px">
+                <p>MongoDB</p>
+            </div>
+            <div class="skill-item">
+                <img src="tableau.jpg" alt="Tableau Logo" class="skill-logo", height="90px", width="90px">
+                <p>Tableau</p>
+            </div>
+            <div class="skill-item">
+                <img src="powerbi.jpg" alt="PowerBI Logo" class="skill-logo", height="90px", width="90px">
+                <p>PowerBI</p>
+            </div>
+            <div class="skill-item">
+                <img src="ml.jpg" alt="Machine Learning Logo" class="skill-logo", height="90px", width="90px">
+                <p>Machine Learning</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 data-aos="flip-left">Projects</h2>
+        <div class="project" id="project1" data-aos="fade-up">
+            <div class="project-thumbnail" style="float: left; margin-right: 20px;">
+                <img src="intro_dtfm.jpg" alt="Dynamic Traffic Flow Management" style="width: 175px; height: 120px;">
+            </div>
+            <h3>Dynamic Traffic Flow Management</h3>
+            <p>Details about optimizing urban mobility with AI.</p>
+            <a href="https://drive.google.com/file/d/1gjOXd5L99g1AVIfPEJYHGEdYeDQb1bkC/view?usp=drive_link" target="_blank">View Project</a>
+        </div>
+        <p>....</p>
+        <div class="project" id="project2" data-aos="fade-up">
+            <div class="project-thumbnail" style="float: right; margin-left: 20px;">
+                <img src="intro_sa.jpg" alt="Sales Analysis" style="width: 175px; height: 120px;">
+            </div>
+            <h3>Sales Analysis</h3>
+            <p>Details about transforming raw sales data into actionable insights.</p>
+            <a href="https://example.com/sales-analysis" target="_blank">View Project</a>
+        </div>
+        <!-- Add more projects with alternating thumbnails -->
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="work-experience">
+        <h2 data-aos="zoom-out">Work Experience</h2>
+        <ul data-aos="fade-left">
+            <li>Tata Steel 2023</li>
+            <li>Tata Steel 2024</li>
+            <li>IoT Lab Developer</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 data-aos="fade-up">Contact Me</h2>
+        <form id="contact-form" method="POST" action="/submit-query" data-aos="zoom-in">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" data-aos="fade-up">
+        <p>&copy; 2024 Suvankar Dash | Follow me on <a href="https://x.com/suvankar_dash01" target="_blank">Twitter</a>, <a href="https://www.linkedin.com/in/suvankar-dash-37a89b247/" target="_blank">LinkedIn</a>, and <a href="https://github.com/" target="_blank">GitHub</a>.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            easing: 'ease-in-out',
+            once: true,
+        });
+    </script>
+</body>
+</html>
